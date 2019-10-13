@@ -7,4 +7,4 @@ var buffer = fs.readFileSync(process.argv[2]); //representacion del archivo en u
 var data = buffer.toString(); //volver contenido en string
 var dataLines = data.split("\n"); //crea un arreglo separado por los saltos de linea
 
-console.log(dataLines.length); //cuantos elementos existan aqui es el numero
+console.log(dataLines.length - 1); //cuantos elementos existan aqui es el numero
